@@ -1,0 +1,67 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: 'Bodoni MT', sans-serif;
+  background-color: #FFDE63;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado tipo banner */
+.banner {
+  background-color: #799EFF;
+  color: Black;
+  text-align: center;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+/* Navegación dentro del banner */
+nav {
+  margin-top: 30px;
+}
+
+nav a {
+  margin: 0 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #FEFFC4;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #940a0a;
+  text-decoration: underline;
+}
+
+/* Título principal en cada página */
+h2 {
+  font-size: 60px;
+  color: #5d4c75;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Párrafos */
+p {
+  font-size: 30px;
+  color: Black;
+  text-align: justify;
+}
+
+/* Sección principal */
+main {
+  padding: 40px 20px;
+}
+
+/* Estilo para enlaces tipo botón si se usan */
+.banner-content h2 {
+  margin: 0;
+}
